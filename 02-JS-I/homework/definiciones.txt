@@ -1,0 +1,18 @@
+variables: 
+son como cajas para guardar cosas. Esas cosas pueden ser diferentes tipos de datos.
+
+Strings: 
+Son datos que representan palabras escritas. (perro, gato son ejemplos de strings).
+
+Funciones: 
+Las funciones son ayudas o herramientas que hacen lo que yo necesite, según las instrucciones que se le den. Si creo una función 'carro' le puedo decir que ande, se detenga o haga un sonido cuando yo quiera ante determinadas situaciones o condiciones.
+
+Declaraciones if:
+
+Son hechos o situaciones que ocurren solo cuando se cumplen ciertas condiciones. Ejemplo: si llueve afuera y me salgo de casa entonces me mojo. No me voy a mojar a menos que salga de casa, así ocurre con las condiciones, suceden solamente si se cumplen algunas situaciones.
+
+Valores booleanos: 
+
+Son cosas que pueden tener dos estados: verdadero o falso. Ejemplo: Un bombillo se puede decir que es un booleano porque solo puede tener dos estados: encendido o apagado, otro ejemplo puede ser una puerta, puede estar abierta o cerrada, pero no pueden ocurrir las dos cosas al mismo tiempo, así son los booleanos.
+
+
