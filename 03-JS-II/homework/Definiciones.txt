@@ -1,0 +1,16 @@
+For:
+
+Es una tarea que se repite las veces que quieras, se debe indicar la cantidad de veces que se quiere repetir, el punto inicial desde donde debe repetirse y cada cuanto se debe hacer.
+
+&& (and):
+
+Es una instrucción que verifica que varias cosas sean ciertas, cuando detecta que todo lo que se evalua es cierto devuelve un valor verdadero, si alguna de las cosas que se evaluan es falsa, la conclusión es que todas las cosas son falsas. Ejemplo: Si estas durmiendo y te levantas, si alguien te pregunta si duermes, no puedes decir que sí, porque ya te levantaste, lo que significa que es falso lo que dices.
+
+
+|| or:
+
+Es una instruccion que te dice que algo es verdadero cuando entre dos preguntas una es verdadera. Ejemplo: Si te preguntan si quieres un dulce o una manzana, si respondes que sí a cualquiera de las dos preguntas vas a recibir algo, en cambio si dices que no a las dos preguntas no te entregarán nada porque ambas respuestas son negativas.
+
+! negación:
+
+El caracter "!" antes de una expresión contradice el resultado, es como un mentiroso, si la respuesta es positiva te dice que es negativa, y si la respuesta fuera negativa te dice lo contrario.
