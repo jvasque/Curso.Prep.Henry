@@ -1,0 +1,16 @@
+Las clases son útiles para crear muchos objetos que comparten algunas de las mismas propiedades y métodos.
+
+La convención para las clases consiste en dar un nombre en mayúscula.
+
+prototype
+Los métodos de prototype tienen acceso a la palabra clave this y, al igual que antes, siempre apuntará al objeto (a la izquierda del punto) que lo está llamando.
+
+El método assign de los objetos te permite agregar propiedades a un objeto pasado por parámetro
+
+Polimorfismo: nos referimos a la capacidad de que objetos distintos puedan responder a un llamado igual de acuerdo a su propia naturaleza.
+
+CONSTRUCTORES ANIDADOS:
+
+Utiles para heredar propiedades de otros métodos, así no reescribir código de funciones u objetos que ya existen.
+
+se define función y entre los corchetes en la forma "objeto.call(this,argumentos del constructor)" se inicializa el método, luego se agregan los datos de los argumentos propios del método.
