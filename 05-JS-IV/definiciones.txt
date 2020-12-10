@@ -1,0 +1,9 @@
+Objetos: Son elementos que representan cosas por ejemplo:carro,casa, cielo, y como todas las cosas, tienen propiedades que los caracterizan.
+
+Propiedades: representan una caracteristica del objeto al que pertenecen y tienen un valor, por ejemplo en el caso de un carro, puede tener una propiedad color y ese color representa algo, ejemplo verde.
+
+Metodos: Se encuentran dentro de los objetos y se pueden usar para modificar propiedades del objeto o llevar a cabo operaciones dentro del mismo.
+
+bucles for in, permiten desplazarse dentro de cada uno los elementos de un objeto.
+
+notacion puntos vs notacion corchetes, se refiere a la forma en es llamada o invocada una propiedad de un objeto, se puede utilizar cualquiera de las dos maneras, cambia la forma en la que se utiliza. Si usas notación con puntos la forma para modificar el valor de una propiedad sería: objeto.propiedad=valor; si se usa con corchetes cambia de la siguiente manera: objeto[propiedad]=valor;
