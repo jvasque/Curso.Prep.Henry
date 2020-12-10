@@ -3,6 +3,9 @@ Las clases son útiles para crear muchos objetos que comparten algunas de las mi
 La convención para las clases consiste en dar un nombre en mayúscula.
 
 prototype
+
+Permite añadir propiedades a todos los objetos del tipo Object.
+
 Los métodos de prototype tienen acceso a la palabra clave this y, al igual que antes, siempre apuntará al objeto (a la izquierda del punto) que lo está llamando.
 
 El método assign de los objetos te permite agregar propiedades a un objeto pasado por parámetro
@@ -13,4 +16,8 @@ CONSTRUCTORES ANIDADOS:
 
 Utiles para heredar propiedades de otros métodos, así no reescribir código de funciones u objetos que ya existen.
 
-se define función y entre los corchetes en la forma "objeto.call(this,argumentos del constructor)" se inicializa el método, luego se agregan los datos de los argumentos propios del método.
+se define función y entre los corchetes en la forma "objeto.call(this,argumentos del constructor)" se inicializa el método, luego se agregan los datos de los argumentos propios del método. Se heredan las propiedades pero no los métodos.
+
+Si se quiere usar un método al momento de heredar, se debe crear un prototype usando Object.create y como argumento el nombre de la clase a heredar. Así: 
+Alumno.prototype = Object.create(Persona.prototype); en este caso se heredan los métodos de la clase Persona. Luego se debe crear el constructor Alumno.prototype.constructor = Alumno.
+
