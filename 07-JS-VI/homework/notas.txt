@@ -1,0 +1,8 @@
+ Pasar una función como argumento a otra función. Estas funciones se denominan callbacks.
+ La convención es usar cb como argumento para la variable que se usará de callback.
+function crearSaludo(usuario, cb) {
+    return cb(usuario);
+}
+
+"métodos de orden superior":
+Porque toman los callbacks como argumentos.
