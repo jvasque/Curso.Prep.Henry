@@ -1,0 +1,7 @@
+    
+    h1 { color: #00f2ff; }
+    img {width: 400px;}
+    .thirdDiv{ background-color: chocolate ; padding: 50px; border-width: medium; border: rgb(0, 0, 0) ; border-style: dotted; height: 600px ; width:500px ; }
+   .divPrincipal{display: flex;justify-content: center;}
+   
+    #spanId{font-size: 18px; margin: 50px; }
