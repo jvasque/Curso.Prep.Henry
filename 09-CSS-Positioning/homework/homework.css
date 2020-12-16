@@ -7,32 +7,99 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
-
+    display:block;
+    text-align:center;
 }
 
 
-/* Ejercicio 2: Posicionar el header */
+/* Ejercicio 2: Posicionar el header 
 
-/* Acá va tu código */
+ Acá va tu código */
+#ejercicioDos{
+display: none;
+}
 
 
+/* Ejercicio 3:
 
-/* Ejercicio 3: */
-
-/* Acá va tu código */
-
+ Acá va tu código */
+#ejercicioTres{
+   position:relative;
+   top:100px;
+   left:200px; 
+}
 
 
 /* Ejercicio 4: */
 
 /* Acá va tu código */
+#ejercicioCuatro{
+    position:fixed;
+    left:0px;
+    top:0px
+}
 
 
 
 /* Ejercicio 5: */
 
 /* Acá va tu código */
+#ejercicioCinco{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 
 
 /* Ejercicio 6. */
+#ejercicioCinco{
+  flex-direction: row-reverse;  
+}
+
+
+/*Ejercicio 7 */
+
+
+ #ejercicioSiete{
+     height: 405px;
+    display:grid;
+    grid-template: repeat(4,100px)/  repeat(4,125px); 
+    gap:0.5px 0.5px;
+   
+    
+}
+
+
+#elementoUno{
+    display: flex;
+    text-align: center;
+    width: auto;
+    grid-row-start:4 ;
+
+}
+
+#elementoDos{
+    display: flex;
+    text-align: center;
+    width: auto;
+    grid-row-start:3 ;
+    grid-column-start: 2;
+ }
+
+ #elementotres{
+    display: flex;
+    text-align: center;
+    width: auto;
+    
+    grid-column-start: 4;
+ }
+ 
+ #elementoCuatro{
+    display: flex;
+    text-align: center;
+    width: auto;
+    grid-row-start:-2 ;
+    grid-column-start: -2;
+  }
+ 

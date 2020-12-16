@@ -1,0 +1,67 @@
+Posicionamiento:
+	Display>Controla cómo se muestra el contenido en relación a elementos que lo 		rodean.
+
+	valor de display:
+
+	none:Oculta por completo elementos de la página.
+	flex:permite controlar dónde colocar items de la página.
+	grid:Permite crear grillas dentro de un elemento.
+	
+
+	Elementos:
+	- block: generan nueva línea y tomará ancho máximo de donde se 			encuentre:<p,h1-h6>
+
+	- inline: Opuesto a block, no toma nueva linea y ocupa solo espacio necesario.
+
+
+Position:
+	
+	static: posición por defecto.
+	relative: Hace que el objeto se comporte como estático, se puede usar con 	otros métodos de posicionamiento.
+	fixed:fija el elemento sin importar cuanto se mueva la pantalla el elemento 	permanecerá ahí.
+	Absolute: similar a fixed,en éste caso el elemento quedará anclado de forma 	relativa al parent.No funciona con la posición static
+
+Propiedades para posicionar elementos:
+
+	Funciona para cualquier posición excepto static.
+
+	Para acomodar el elemento se puede usar: Top,left,right,bottom
+	
+EJEMPLO>
+	Si lo quisiésemos 10 píxeles debajo del límite superior y 10 píxeles del borde derecho:
+  div {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  }
+
+
+===================================
+==============FLEXBOX==============
+===================================
+
+Permite posicionar elementos en relación al parent y entre ellos.
+
+Flex: permite que un contenedor sea flex-block, convierte al elemento en una "grilla" con filas y columnas
+inline-flex: hace al elemento flex e inline.
+
+"justify-content" y "align-items"
+ "justify-content" aplicará al movimiento de izquierda a derecha (fila), y "align-items" lo hará de arriba a abajo (columna). 
+
+center: centrará el elemento (o grupo de elementos) a lo largo de un eje en el que aplica esta regla.
+flex-start: Este es el valor por defecto de cada "flex box", mostrará todos los elementos en un grupo al comienzo de una fila o columna.
+flex-end: es lo opuesto a flex-start, mostrará los elementos al final de un grupo al comienzo de una fila o columna.
+space-between: Esta regla espaciará uniformemente el elemento o los elementos a lo largo de la fila o columna. El primer elemento estará como flex-start y el último como flex-end.
+space-around: Similar a space-between, pero aplicará márgenes igualitarios entre cada elemento, por lo que ningún elemento estara directamente sobre el borde del contenedor.
+
+
+"flex-direction"
+Esta propiedad puede cambiar cómo el navegador interpreta justify-content (JC) y align-items (AI).
+row: es la dirección por defecto. JC aplica de izquierda a derecha, AI aplica de arriba a abajo.
+column: Esto invertirá qué propiedad controla qué dirección. JC aplicará de arriba a abajo y AI de izquierda a derecha.
+row-reverse: Sólo invierte la dirección de JC de derecha a izquierda, no afecta a AI.
+column-reverse: Sólo invierte la dirección de AI de abajo a arriba, no afecta a JC.
+
+Si le damos la propiedad align-self, podemos colocarla en cualquier lugar a lo largo del eje de elementos de alineación que queramos. será aplicada a un elemento dentro del "flex box" del cual queremos separar el control de align-items.
+
+Nota que cuando es una columna, justify-content cambia a vertical y align-items a horizontal.
