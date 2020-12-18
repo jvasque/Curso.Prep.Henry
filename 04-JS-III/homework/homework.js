@@ -24,9 +24,10 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  suma=0;
   for(var i=0;i<(array.length);i++){
    
-    var suma = array[i]+1;
+     suma = array[i]+1;
     
     array[i]=suma;
   }
